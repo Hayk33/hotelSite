@@ -1,0 +1,161 @@
+body{
+  background-color:white;
+
+}
+.name{
+  color: #FFD700;
+  margin-right: 50px;
+  font-size: 35px;
+}
+.text{
+  margin-top: -5px;
+  margin-left: 15px;
+}
+.image1{
+  width: 100%;
+  height: 500px;
+}
+
+.about3{
+  margin-top: -70px;
+  color: white;
+  font-size: 20px;
+
+}
+
+.header{
+  color: #FFD700;
+}
+.text1{font-family: "Brush Script MT", cursive;
+font-size: 30px;
+}
+.text2{
+  font-size: 15px;
+  font-family: Arial;
+
+}
+.text3{
+  margin-top: 10px;
+}
+
+.aboutImage{
+  margin-left: 900px;
+  margin-top: -200px;
+}
+
+a{
+  text-decoration: none;
+}
+.fb{
+  width: 20px;
+  height: 20px;
+}
+.vk{
+  width: 23px;
+  height: 23px;
+}
+.fbImage{
+  margin-left: 380px;
+  margin-top: 200px;
+
+}
+.about{
+  margin-top: -23px;
+  margin-left: 25px;
+}
+.imgcontact{
+  margin-top: -100px;
+}
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 99999;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+
+.menu{
+  display: inline-block;
+  margin-left: 5px;
+  font-size: 20px;
+}
+.menu1{
+  border: 0.01px solid #333;
+  width: 100%;
+  height: 40px;
+
+
+}
+.menu1:hover{
+    border: solid;
+  background-color: #FFD700;
+  width: 100%;
+}
+.menu12{
+  border: solid;
+  background-color: #FFD700;
+  width: 100%;
+  height: 40px;
+
+}
+.main {
+  padding: 16px;
+  margin-top: 30px;
+  height: 1500px; /* Used in this example to enable scrolling */
+}
+.main {
+  padding: 16px;
+  margin-top: 30px;
+  height: 1500px; /* Used in this example to enable scrolling */
+}
+.aboutImage2{
+  width: 30%;
+  height: 250px;
+}
+.contactImg{
+  width: 30px; 
+  margin-top: 30px;
+}
+.location{
+  margin-top: -50px;
+  margin-left: 60px;
+}
+.powered{
+position:absolute;
+top:100%;
+}
+.location1{
+  margin-top: -30px;
+  margin-left: 60px;
+}
+@media all and (max-width: 1024px) {
+  .name{
+  color: #FFD700;
+  margin-right: 50px;
+  font-size: 35px;
+}
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 99999;
+}
+.powered{
+position:absolute;
+top:100%;
+}
+}
